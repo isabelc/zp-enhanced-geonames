@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=B4ZUZ
 Tags: zodiacpress, zodiac, astrology, geonames
 Requires at least: 4.7
 Tested up to: 4.9-alpha-41322
-Stable tag: 1.5
+Stable tag: 1.6
 License: GNU GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,6 +25,9 @@ This will not work on https pages unless you purchase credits for [GeoNames Prem
 So, if you are using the ZodiacPress form on an http page, then this plugin will work for you with the free GeoNames account. But, if you are using the ZodiacPress form on an https page, then this extension will only work if your GeoNames account is a Premium account (i.e. if you've purchased credits for GeoNames Premium Webservices).
 
 == Changelog ==
+
+= 1.6 =
+* Fixed version number.
 
 = 1.5 =
 * New - Removed the zp_timezone_ajaxurl filter since it is no longer necessary in ZodiacPress version 1.5.4 and higher. This filter still remains if the ZodiacPress version is less than 1.5.4.
