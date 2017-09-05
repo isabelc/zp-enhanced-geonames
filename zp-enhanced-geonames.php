@@ -3,7 +3,7 @@
 Plugin Name: ZodiacPress Enhanced GeoNames
 Plugin URI:	https://cosmicplugins.com/downloads/zodiacpress-enhanced-geonames/
 Description: Improves the experience when filling out the Birth City field on the ZP form.
-Version: 1.5
+Version: 1.6
 Author:	Isabel Castillo
 Author URI:	https://isabelcastillo.com
 License: GPL2
@@ -26,7 +26,7 @@ along with ZodiacPress Enhanced GeoNames. If not, see <http://www.gnu.org/licens
 */
 
 if ( class_exists( 'ZP_License' ) && is_admin() ) {
-	$zppg_license = new ZP_License( __FILE__, 'ZodiacPress Enhanced GeoNames', '1.0', 'Isabel Castillo' );// @todo update v
+	$zppg_license = new ZP_License( __FILE__, 'ZodiacPress Enhanced GeoNames', '1.6', 'Isabel Castillo' );// @todo update v
 }
 function zppg_autocomplete_ajaxurl( $url ) {
 	return '//api.geonames.org/searchJSON';
